@@ -2,9 +2,6 @@
     padding: 0;
     margin: 0 auto;
 }
-body{
-    max-width: 1600px;
-}
 /* header style start */
 nav{
     display: flex;
