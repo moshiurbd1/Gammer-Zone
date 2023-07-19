@@ -398,7 +398,7 @@ margin-bottom: 1rem;
     .banner-image{
         width: 100%;
     }
-    .banner-section,.terms,.summary,.game-section,.online-game-cards{
+    .footer-section,.banner-section,.terms,.summary,.game-section,.online-game-cards{
         margin: 20px;
     }
     .overlay{
@@ -430,8 +430,6 @@ margin-bottom: 1rem;
     .terms{
         grid-template-columns: repeat(2, 1fr);
     }
-    .footer-section{
-        margin: 0;
-    }
+
 }
 /* responsive style end */
