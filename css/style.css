@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+body{
+    max-width: 1600px;
+}
+/* header style start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo .logo-title{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.logo>img{
+    height: 30px;
+    margin-right: .5rem;
+}
+.menu-bar{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.menu-bar li{
+    list-style: none;
+    padding: .5rem 1.5rem;
+}
+li:hover{
+    background: rgba(11, 2, 35, 0.10);
+    border: .5px solid black;
+    border-radius: .5rem;
+
+}
+.menu-bar li a{
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+.menu-bar :last-child{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.menu-bar :last-child>img{
+    width: 30px;
+
+}
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 2rem;
+font-weight: 600;
+text-transform: uppercase;
+}
+.banner-logo-text{
+font-family: Work Sans;
+font-size: 4rem;
+font-weight: 800;;
+text-transform: uppercase;
+color:#F948B2;
+}
+.banner-content-detail>li{
+    list-style: none;
+color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 500;
+margin-bottom: .5rem;
+}
+.btn-primary{
+background: #F948B2;
+padding: 1rem 2rem;
+border-radius:48px ;
+border: 0;
+color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.btn-secondary{
+    background: #4EC5F7;
+    padding: 1rem 2rem;
+    border-radius:48px ;
+    border: 0;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-section>img{
+    max-width: 600px;
+}
+
+/* header style end */
+
+/* online game section style start */
+
+.online-game-content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.online-game-title{
+ color: #0B0223;
+font-family: Work Sans;
+font-size: 3rem;
+font-weight: 700;
+margin-bottom: 1rem;
+}
+.onlin-game-description{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.online-game-cards{
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+    margin: 0 130px;
+}
+.card>img{
+    width: 100%;
+}
+/* online game section style end */
+
+/* paly instantly section style start */
+
+.play-section{
+    display: flex;
+    align-items: center;
+    margin: 50px 130px;
+}
+.play-content{
+    margin-right: 8rem;
+    margin-bottom: 15rem;
+}
+.play-title{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; 
+}
+.play-instantly-color{
+   color: #F948B2;
+}
+.play-description{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.img-bottom{
+    position: relative;
+    bottom: 300px;
+    right: 80px;
+}
+
+/* paly instantly section style end */
+
+
+
+/* responsive style start */
+@media screen and (max-width:576px) {
+   .play-section,.online-game-cards,.menu-bar,nav{
+        flex-direction: column;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+    }
+   .play-section,.online-game-cards{
+        margin: 20px;
+    }
+    .play-title,.play-description{
+        text-align: center;
+    }
+    .play-content{
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    .img-top{
+        width: 100%;
+    }
+    .img-bottom{
+      width: 50%;
+      bottom: 150px;
+    }
+
+}
+@media screen and (min-width:577px) and (max-width:960px) {
+    .play-section,nav{
+        flex-direction: column;
+    }
+    .online-game-cards{
+        margin: 20px;
+    }
+    .play-content{
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    .play-title,.play-description{
+        text-align: center;
+    }
+    .img-top{
+        width: 100%;
+    }
+    .img-bottom{
+        width: 50%;
+        bottom: 150px;
+      }
+}
+/* responsive style end */
