@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0 auto;
+font-family: 'Work Sans';
 }
 body{
     max-width: 1340px;
@@ -359,7 +360,7 @@ margin-bottom: 1rem;
     }
     .game-section{
         grid-template-columns: repeat(3,1fr);
-        margin-top: -200px;
+        margin-top: -175px;
         gap:.5rem;
     }
     .game:hover{
@@ -368,10 +369,13 @@ margin-bottom: 1rem;
         padding: .2rem .5rem;
       
     }
+    .game>img{
+        width: 35px;
+    }
     .game-title{
         color: #0B0223;
         font-family: Work Sans;
-        font-size: 1rem;
+        font-size: .5rem;
         font-weight: 500;
     }
     .summary{
