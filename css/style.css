@@ -224,6 +224,36 @@ margin-bottom: 1rem;
 
 /* Game section style end */
 
+    /* Footer section styles start*/
+    .footer-section{
+        background: #0B0223;
+        color: white;
+        text-align: center;
+        padding: 20px 40px 50px 40px;
+        margin-top: 100px;
+    
+    }
+    .footer-title{
+       margin-left:0;
+       font-family: Work Sans;
+       font-size: 45px;
+       font-weight: 700;
+    }
+   .summary{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        margin: 1rem 2rem;
+        margin-bottom: 2rem;
+    
+    }
+    .terms{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 1rem 2rem;
+        margin-bottom: 2rem;
+    }
+    /* Footer section styles end*/
+
 
 /* responsive style start */
 @media screen and (max-width:576px) {
@@ -255,6 +285,13 @@ margin-bottom: 1rem;
         margin-top: -200px;
         gap:.5rem;
     }
+    .summary{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .terms{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 
 }
 @media screen and (min-width:577px) and (max-width:960px) {
