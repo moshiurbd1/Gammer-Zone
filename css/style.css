@@ -308,7 +308,7 @@ margin-bottom: 1rem;
     .banner-image{
         width: 100%;
     }
-   .terms,.summary,.footer-section,.game-section,.play-section,.online-game-cards{
+  .banner-section,.terms,.summary,.footer-section,.game-section,.play-section,.online-game-cards{
         margin: 20px;
     }
     .play-title,.play-description{
@@ -351,7 +351,7 @@ margin-bottom: 1rem;
     .banner-image{
         width: 100%;
     }
-    .terms,.summary,.footer-section,.game-section,.online-game-cards{
+    .banner-section,.terms,.summary,.footer-section,.game-section,.online-game-cards{
         margin: 20px;
     }
     .play-content{
