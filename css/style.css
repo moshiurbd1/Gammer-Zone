@@ -141,6 +141,7 @@ text-transform: uppercase;
 
 
 
+
 /* header style end */
 
 /* online game section style start */
@@ -304,6 +305,9 @@ margin-bottom: 1rem;
         display: flex;
         gap: .5rem;
     }
+    .banner-image{
+        width: 100%;
+    }
    .terms,.summary,.footer-section,.game-section,.play-section,.online-game-cards{
         margin: 20px;
     }
@@ -344,7 +348,9 @@ margin-bottom: 1rem;
         flex-direction: column-reverse;
         gap: 50px;
     }
-    
+    .banner-image{
+        width: 100%;
+    }
     .terms,.summary,.footer-section,.game-section,.online-game-cards{
         margin: 20px;
     }
