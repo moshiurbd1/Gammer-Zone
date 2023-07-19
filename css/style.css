@@ -101,9 +101,20 @@ font-size: 20px;
 font-weight: 500;
 margin-bottom: .5rem;
 }
+.bicon{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.bicon>p{
+    margin: 0;
+}
 .banner-icon{
     width: 1.5rem;
-    margin-top: 5px;
+    margin: 0;
+   
 }
 .btn-primary{
 background: #F948B2;
